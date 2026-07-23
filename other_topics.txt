@@ -1,4 +1,5 @@
 Topics need to know:
+
 1. Back of Envelope
 2. Consistent Hashing - Ring hash, Rendezvous consistent hashing, jump consistent hashing, Maglev consistent hashing
 3. Quorum - read and write quorum; R+W > N; R or W = (N/2) +1
@@ -20,3 +21,4 @@ Topics need to know:
 19. Read Repair
 20. Merkle Trees
 21. Consensus
+22. Serverless compute
