@@ -1,24 +1,299 @@
-Topics need to know:
+Level 1 — Networking Fundamentals
 
-1. Back of Envelope
-2. Consistent Hashing - Ring hash, Rendezvous consistent hashing, jump consistent hashing, Maglev consistent hashing
-3. Quorum - read and write quorum; R+W > N; R or W = (N/2) +1
-4. Leader and Follower
-5. Write-ahead Log
-6. Segmented Log
-7. High-Water mark
-8. Lease
-9. Heartbeat
-10. Gossip Protocol
-11. Phi Accrual Failure Detection
-12. Split-brain
-13. Fencing
-14. Checksum
-15. Vector Clocks
-16. CAP Theorem
-17. PACELEC Theorem
-18. Hinted Handoff
-19. Read Repair
-20. Merkle Trees
-21. Consensus
-22. Serverless compute
+These are the building blocks.
+
+OSI Model
+TCP vs UDP
+Three-way handshake
+TLS/SSL
+HTTP/1.1
+HTTP/2
+HTTP/3 (QUIC)
+REST
+gRPC
+GraphQL
+WebSockets
+Server-Sent Events (SSE)
+DNS
+CDN
+Reverse Proxy
+Load Balancer (L4 vs L7)
+NAT
+VPN
+API Gateway
+Level 2 — Databases
+Relational
+ACID
+Isolation Levels
+MVCC
+Indexes (B+ Trees)
+Composite indexes
+Covering indexes
+Query optimization
+Explain plans
+Joins
+Partitioning
+Sharding
+Replication
+Read replicas
+NoSQL
+Key-Value
+Document
+Wide-column
+Graph databases
+
+Examples
+
+Redis
+Cassandra
+MongoDB
+DynamoDB
+Neo4j
+Level 3 — Caching
+Redis
+Memcached
+Cache Aside
+Read Through
+Write Through
+Write Behind
+Refresh Ahead
+Cache Invalidation
+Cache Stampede
+Cache Penetration
+Cache Avalanche
+Bloom Filters
+Distributed Cache
+Level 4 — Messaging
+
+This is what you're currently studying.
+
+Kafka
+Topics
+Partitions
+Offsets
+Consumer Groups
+Producers
+Brokers
+Leader/Follower Replication
+ISR
+Acks
+Idempotent Producer
+Transactions
+Exactly Once
+At Least Once
+At Most Once
+Rebalancing
+Sticky Partitioner
+Partition Keys
+Ordering
+DLQ
+Retry Topics
+Backpressure
+Log Compaction
+Retention
+MirrorMaker
+Kafka Streams
+RabbitMQ
+Exchanges
+Queues
+Routing Keys
+Fanout
+Direct
+Topic Exchange
+Headers Exchange
+Ack
+Nack
+Prefetch
+DLX
+TTL
+Level 5 — Distributed Systems
+
+This is the heart of system design.
+
+Consistency
+CAP Theorem
+PACELC
+Eventual Consistency
+Strong Consistency
+Read-after-write
+Monotonic Reads
+Replication
+Leader-Follower
+Leaderless
+Multi-Leader
+Quorums
+Read Repair
+Anti Entropy
+Gossip Protocol
+Consensus
+Paxos
+Raft
+ZooKeeper
+etcd
+Clocks
+Lamport Clock
+Vector Clock
+Hybrid Logical Clock
+Failure
+Split Brain
+Network Partitions
+Byzantine Failures
+Failover
+Heartbeats
+Level 6 — Scaling
+Vertical Scaling
+Horizontal Scaling
+Load Balancing
+Stateless Services
+Sticky Sessions
+Sharding
+Consistent Hashing
+Virtual Nodes
+Service Discovery
+Auto Scaling
+Level 7 — Storage
+Filesystems
+Object Storage
+Block Storage
+S3
+HDFS
+LSM Trees
+SSTables
+Write Ahead Logs
+Compaction
+B Trees
+B+ Trees
+Level 8 — Search
+Inverted Index
+Elasticsearch
+OpenSearch
+Ranking
+Full Text Search
+Tokenization
+N-grams
+Trie
+Suffix Tree
+Level 9 — Reliability
+Retry
+Circuit Breaker
+Bulkhead
+Timeout
+Rate Limiting
+Token Bucket
+Leaky Bucket
+Exponential Backoff
+Hedged Requests
+Idempotency
+Poison Messages
+DLQ
+Level 10 — Security
+OAuth2
+OpenID Connect
+JWT
+API Keys
+RBAC
+ABAC
+Encryption
+Secrets Management
+CSRF
+CORS
+XSS
+SQL Injection
+Level 11 — Kubernetes & Infrastructure
+Docker
+Containers
+Images
+Namespaces
+cgroups
+Pods
+ReplicaSets
+Deployments
+StatefulSets
+Services
+Ingress
+ConfigMaps
+Secrets
+Helm
+Service Mesh
+Istio
+Envoy
+Level 12 — Observability
+Logging
+Metrics
+Tracing
+Prometheus
+Grafana
+OpenTelemetry
+ELK Stack
+Jaeger
+Zipkin
+Correlation IDs
+Level 13 — Architecture Patterns
+Monolith
+Microservices
+Event Driven Architecture
+CQRS
+Event Sourcing
+Saga Pattern
+Outbox Pattern
+Inbox Pattern
+API Gateway
+BFF
+Sidecar Pattern
+Strangler Fig Pattern
+Level 14 — Common Interview Systems
+
+Once you've learned the concepts above, practice designing:
+
+URL Shortener
+TinyURL
+WhatsApp
+Instagram
+YouTube
+Netflix
+Uber
+Ola
+Swiggy/Zomato
+Google Drive
+Dropbox
+Twitter/X
+Facebook Feed
+Discord
+Zoom
+Slack
+Notification System
+Chat System
+Search Engine
+Distributed Cache
+Rate Limiter
+Distributed Lock
+Logging System
+Metrics Pipeline
+Payment Gateway
+Food Delivery Platform
+Hotel Booking System
+Ticket Booking System
+Level 15 — Advanced Topics
+CRDTs
+Snowflake ID Generation
+UUID v7
+Distributed Locks
+RedLock
+Chubby
+ZooKeeper
+etcd
+Raft internals
+Paxos internals
+LSM Trees
+RocksDB
+ClickHouse
+Columnar Storage
+Time Series Databases
+Data Lakes
+OLTP vs OLAP
+Change Data Capture (CDC)
+Debezium
+Materialized Views
+Stream Processing
+Flink
+Spark Streaming
